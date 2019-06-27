@@ -2,10 +2,10 @@ Delete from Parametro
 
 DBCC CHECKIDENT ('Parametro', RESEED,0)
 
-insert into Parametro(Nome, Valor,DataInclusao) values('SLAParametrizacao','5', GETDATE(),GETDATE()) 
-insert into Parametro(Nome, Valor,DataInclusao) values('SLAHomologaçao','5', GETDATE(),GETDATE()) 
-insert into Parametro(Nome, Valor,DataInclusao) values('SLATreinamento','5', GETDATE(),GETDATE()) 
-insert into Parametro(Nome, Valor,DataInclusao) values('SLAImplantacao','5', GETDATE(),GETDATE()) 
+insert into Parametro(Nome, Valor,DataInclusao) values('SLAParametrizacao','5', GETDATE()) 
+insert into Parametro(Nome, Valor,DataInclusao) values('SLAHomologaçao','5', GETDATE()) 
+insert into Parametro(Nome, Valor,DataInclusao) values('SLATreinamento','5', GETDATE()) 
+insert into Parametro(Nome, Valor,DataInclusao) values('SLAImplantacao','5', GETDATE()) 
 
 INSERT INTO Parametro (Nome, Valor, DataInclusao)
 VALUES ('NomePortal', 'Portal de Operações', GETDATE())
