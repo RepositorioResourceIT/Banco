@@ -1,0 +1,9 @@
+
+DELETE FROM Perfil
+
+DBCC CHECKIDENT ('Perfil', RESEED,0)
+
+INSERT INTO Perfil (Nome, Ativo, DataInclusao)
+VALUES ('ADMINISTRADOR', 1, GETDATE())
+, ('DESENVOLVEDOR', 1, GETDATE())
+, ('GERENTE', 1, GETDATE())
